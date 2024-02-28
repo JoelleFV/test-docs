@@ -16,4 +16,7 @@ mkdocs:
 
 python:
   install:
-    - requirements: docs/readthedocs-requirements.txt
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs/readthedocs-requirements.txt
