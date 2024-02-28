@@ -1,0 +1,18 @@
+site_name: Coding Guidelines
+site_url: ""
+use_directory_urls: false
+plugins: []
+nav:
+  - Home: index.md
+  - About: about.md
+  - Math: math.md
+theme: mkdocs
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js # For mathjax
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 # For mathjax
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # For mathjax
